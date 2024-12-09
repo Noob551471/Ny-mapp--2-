@@ -63,9 +63,6 @@ while Player_amount not in Player_amount_decider:
 if Player_amount == "0":
     Player1 = random.choice(names1)
     Player2 = random.choice(names2)
-    print ("Bot vs Bot selected")
-    
-    time.sleep (2)
     
     
         
@@ -172,7 +169,7 @@ if Player_amount == "0":
                 if retry == "yes":
                     Player1HP = int(100)
                     Player2HP = int(100)
-                elif retry == "y":
+                if retry == "y":
                     Player1HP = int(100)
                     Player2HP = int(100)
                 else:
